@@ -28,10 +28,15 @@ ul {
 
 #name {
     background-color: #4aaaa5;
-    background-size: 45px;
+    font-size: 22;
+    font-weight: bolder;
+    padding: 35px;
     color: #ffffff;
     float: left;
+    position: relative;
     background-clip: border-box;
+    top: -46;
+    left: -15;
     
 }
 
@@ -47,8 +52,8 @@ li {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
-    padding: 10px;
-    margin: 15px auto;
+    padding: 20px;
+    margin: 15px auto 15px auto;
 }
 
 h1 {
