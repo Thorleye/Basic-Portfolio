@@ -23,20 +23,23 @@ header {
 ul {
     list-style-type: none;
     text-align: center;
+    color: #777777;
 }
 
 #name {
     background-color: #4aaaa5;
+    background-size: 45px;
     color: #ffffff;
     float: left;
+    background-clip: border-box;
+    
 }
 
 li {
     float: right;
-    display: inline-block;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px; 
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px; 
 
 }
 
@@ -44,37 +47,51 @@ li {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
-    padding: 20px;
+    padding: 10px;
     margin: 15px auto;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22;
+    font-weight: bolder;
     text-align: left;
-    padding 45px;
+    padding: 15px;
     border-bottom: 2px solid #cccccc;
+    color: 4aaaa5;
 }
 
 #content {
     margin: 15px;
+    padding-top: 15px;
+    overflow: auto;
 }
 
 p   {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
+
 #pic    {
     position: relative;
     float: left;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.contact {
+    border: 1px solid grey;
+    
 }
 
 footer {
     text-align: center;
     border-top: 5px solid #4aaaa5;
     background-color: #666666;
-    width:100%;
-    position:fixed;
-    bottom:0;
+    color: #dddddd;
+    padding-top: 16px; 
+    width: 100%;
+    font-size: 14px;
+    line-height: 12px;
+    position: fixed;
+    bottom: 0;
 }
