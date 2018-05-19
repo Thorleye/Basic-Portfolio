@@ -7,24 +7,62 @@ body {
 }
 
 header {
+    width:100%;
+    size: 960px;
+    padding:40px;
     background-color: #ffffff;
-    border-color: #cccccc; 
-    font-size: 
+    border-bottom: 5px solid #cccccc;    
 }
 
-.content {
+.nav {
+    width: 960px;
+    margin: 15px auto;
+    padding: 20px;
+    align-content: center;
+    position: relative;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    position: absolute;
+    width: 255px;
+    height: 100%;
+}
+
+.about {
+    position: relative;
+    float: right;
+}
+
+.wrapper {
     background-color: #ffffff;
     border-color: #dddddd;
-    width:960px;
+    width: 960px;
+    padding: 20px;
+    margin: 15px auto;
 }
 
-h {
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22;
+    text-align:left;
 }
 
+p   {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+#pic    {
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
 
 footer {
-    border-top: 15px, #4aaaa5;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
     background-color: #666666;
     width:100%;
     position:fixed;
