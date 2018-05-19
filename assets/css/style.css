@@ -9,11 +9,13 @@ body {
 header {
     background-color: #ffffff;
     border-color: #cccccc; 
+    font-size: 
 }
 
 .content {
     background-color: #ffffff;
     border-color: #dddddd;
+    width:960px;
 }
 
 h {
@@ -22,7 +24,7 @@ h {
 
 
 footer {
-    border-top: 5px, #4aaaa5;
+    border-top: 15px, #4aaaa5;
     background-color: #666666;
     width:100%;
     position:fixed;
