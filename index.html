@@ -3,67 +3,54 @@
 <head>
     <title>Index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
+
 <!-- header across the top of the screen-->
 <header>
         <!-- header wrapper is nav-->
         <nav>
-        <!-- keep boxes/ text aligned within the nav-->
+        <!-- div#name is the teal name box-->
+            <div id="name"><b>Eric Thorley</b></div id="name">
+            <!--clickable links on the right are on unordered list -->
              <ul>
-                 <!-- div#name is the teal name box-->
-                <div id="name"><b>Eric Thorley</b></div id="name">
-                <!--clickable links on the right are on unordered list -->
                 <li>About</li>
                 <li>Portfolio</li>
                 <li>Contact</li>
             </ul>
         </nav>
     </header>
-    
 
-<!-- This content is the content boxes-->
+<!-- body has the picture and the content-->
     <body>
-        <!-- div class wrapper-->
+            <!-- div class wrapper-->
         <div class="wrapper">
-            <header><h1>Portfolio</h1></header>
-            <!--making an image gallery with placeholder links-->
-            <div class="gallery">
-                 <a target="_blank" href=#>
-                  <img src="./assets/images/earbud.jpg" alt="earbud" width="270" height="200">
-                </a>
-            <div class="desc">Headphones</div>
-           </div>
-                  
-            <div class="gallery">
-                <a target="_blank" href="#">
-                  <img src="./assets/images/ipad.jpg" alt="ipad" width="270" height="200">
-                </a>
-            <div class="desc">Ipad</div>
-          </div>
-                  
-                  <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="./assets/images/ledtv.jpg" alt="Television" width="270" height="200">
-                    </a>
-                    <div class="desc">Television</div>
-                  </div>
-                  
-              <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="./assets/images/phone.jpg" alt="Mobile" width="270" height="200">
-                    </a>
-                <div class="desc">Mobile</div>
-              </div>
-                  
-                <div class="gallery">
-                    <a target="_blank" href="#">
-                      <img src="./assets/images/walkman.jpg" alt="Music" width="270" height="200">
-                    </a>
-                    <div class="desc">Cutting Edge Technology</div>
-                 </div>
+            <!--About me title-->
+          
 
+            <section id="content">
+                    <header><h1>About Me</h1></header>      
+                <!-- picture at the upper left-->
+                
+                <img id="pic" src="./assets/images/puppy.jpg" alt="Bio Pic">
+
+                <!-- content-->
+                <p>
+                    I am a fullstack developer student part time/ manufacturing sales rep full time. I am learning the skills of web development to further my career and give myself the skills needed to be competive in an ever evolving workforce.  
+                </p>
+
+                <p>
+                    Born and raised in Toronto, I received my BA in 2012 from the University of Toronto before returning in 2018 for the full stack development bootcamp program from the school of continuing studies. I have done volunteer work with churches, the children's aid society, community outreach programs and the Heart and Stroke foundation. I have worked jobs in a few kitchens, and in my current role as a sales rep at a steel company. 
+                </p>
+
+                <p>
+                    In my spare time I am cheering for the Raptors, Blue Jays & Green Bay Packers. I'm also catching up on the latest tv or non-fiction action in book or podcast form. Check out the links in the Portfolio page for my latest projects.
+                </p>
+                </section>
+        </div>    
     </body>
+
     <footer>Copyright &copy;</footer>
+
 </html>
