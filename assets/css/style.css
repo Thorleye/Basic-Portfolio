@@ -3,48 +3,56 @@
 }
 
 body {
-    background-image: url("../images/concrete_seamless.png")
+    background-image: url("../images/concrete_seamless.png");
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size:16px;
+    line-height: 24px;
+    color: #777777;
+
 }
 
 header {
     width:100%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
     padding: 16px;
-    border-bottom: 2px solid #cccccc;    
+    border-bottom: 2px solid #cccccc;  
+      
 }
 
-#nav {
+nav {
     width: 960px;
-    margin: 15px auto;
-    padding: 15px;
+    height: 20px;
+    margin: auto;
+    position: relative;
     
 }
 
-ul {
+div#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;    
+    font-size: 22px;
+    font-weight: bolder;
+    top: -20px;
+    left: 0;
+    padding: 16px;
+     
+}
+
+nav ul {
     list-style-type: none;
     text-align: center;
-    color: #777777;
-}
-
-#name {
-    background-color: #4aaaa5;
-    font-size: 22;
-    font-weight: bolder;
-    padding: 35px;
-    color: #ffffff;
-    float: left;
-    position: relative;
-    background-clip: border-box;
-    top: -46;
-    left: -15;
+    top:0;
     
 }
 
-li {
+nav li {
     float: right;
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px; 
+    top:0;
 
 }
 
@@ -55,37 +63,37 @@ li {
     padding: 20px;
     margin: 15px auto 15px auto;
 }
-
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22;
-    font-weight: bolder;
-    text-align: left;
-    padding: 15px;
-    border-bottom: 2px solid #cccccc;
-    color: 4aaaa5;
-}
-
-#content {
-    margin: 15px;
-    padding-top: 15px;
-    overflow: auto;
-}
-
-p   {
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-}
+ 
 
 #pic    {
-    position: relative;
     float: left;
     height: 200px;
     width: 200px;
 }
 
-.contact {
+p {
+    padding: 8px;
+    margin: 8px;
+}
+
+div#contact {
+    padding: 5px;
+    margin:5px;
     border: 1px solid grey;
+    border-width: thin;
     
+}
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bolder;
+    
+}
+content {
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
 }
 
 footer {

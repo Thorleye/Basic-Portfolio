@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Index</title>
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <!-- header across the top of the screen-->
 <header>
-        <!-- header wrapper -->
+        <!-- header wrapper is nav-->
         <nav>
-            <!-- this is the teal name button on the right side-->
-            <div id="name">
-                <h1> Eric Thorley </h1>
-            </div>
-        <!-- Buttons on the top right-->
-            <div class="about">about</div>
-            <div class="about">portfolio</div>
-            <div class="about">contact</div>
+        <!-- div#name is the teal name box-->
+            <div id="name"><b>Eric Thorley</b></div id="name">
+            <!--clickable links on the right are on unordered list -->
+             <ul>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Contact</li>
+            </ul>
         </nav>
     </header>
+    
 
-<!-- This content is the content boxes-->
+
     <body>
         <!-- div class wrapper-->
         <div class="wrapper">
-            <h1>Contact</h1>
+            <header><h1>Contact</h1></header>
 
-            <p>Name</p>
-            <div id="contact"> Eric Thorley</div>
-            <p>Email</p>
-            <div id="contact">thorley.eric@gmail.com</div>
-            <p>message</p>
-            <div id=Message>""</div>
-            <div class="submit">Submit</div>
-        </div>
-
+            <!-- This content is the content boxes-->
+            <section id="content">
+                <h2>Name</h2>
+                <div class="contact"> Eric Thorley</div>
+                <h2>Email</h2>
+                <div class="contact">thorley.eric@gmail.com</div>
+                <h2>Message</h2>
+                <div id=Message>""</div>
+                <div id="submit">Submit</div>
+            </div>
+        </section>
     </body>
     <footer>Copyright &copy;</footer>
 </html>
