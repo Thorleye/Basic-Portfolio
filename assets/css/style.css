@@ -11,6 +11,7 @@ body {
 
 }
 
+
 header {
     width:100%;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -161,4 +162,9 @@ footer {
     position: fixed;
     bottom: 0;
     left:0;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
