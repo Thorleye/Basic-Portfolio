@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact</title>
+    <title>Index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 <!-- header across the top of the screen-->
 <header>
         <!-- header wrapper is nav-->
         <nav>
-        <!-- div#name is the teal name box-->
-            <div id="name"><b>Eric Thorley</b></div id="name">
-            <!--clickable links on the right are on unordered list -->
+        <!-- keep boxes/ text aligned within the nav-->
              <ul>
+                 <!-- div#name is the teal name box-->
+                <div id="name"><b>Eric Thorley</b></div id="name">
+                <!--clickable links on the right are on unordered list -->
                 <li>About</li>
                 <li>Portfolio</li>
                 <li>Contact</li>
@@ -22,25 +23,47 @@
     </header>
     
 
-
+<!-- This content is the content boxes-->
     <body>
         <!-- div class wrapper-->
         <div class="wrapper">
-            <header><h1>Contact</h1></header>
+            <header><h1>Index</h1></header>
+            <!--making an image gallery with placeholder links-->
+            <div class="gallery">
+                 <a target="_blank" href=#>
+                  <img src="./assets/images/earbud.jpg" alt="earbud" width="270" height="200">
+                </a>
+            <div class="desc">Headphones</div>
+           </div>
+                  
+            <div class="gallery">
+                <a target="_blank" href="#">
+                  <img src="./assets/images/ipad.jpg" alt="ipad" width="270" height="200">
+                </a>
+            <div class="desc">Ipad</div>
+          </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="#">
+                      <img src="./assets/images/ledtv.jpg" alt="Television" width="270" height="200">
+                    </a>
+                    <div class="desc">Television</div>
+                  </div>
+                  
+              <div class="gallery">
+                    <a target="_blank" href="#">
+                      <img src="./assets/images/phone.jpg" alt="Mobile" width="270" height="200">
+                    </a>
+                <div class="desc">Mobile</div>
+              </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="#">
+                      <img src="./assets/images/walkman.jpg" alt="Music" width="270" height="200">
+                    </a>
+                    <div class="desc">Cutting Edge Technology</div>
+                 </div>
 
-            <!-- This content is the content boxes-->
-            <section id="content">
-                <h2>Name</h2>
-                <!--currently text with boxes around it-->
-                <div class="contact"> Eric Thorley</div>
-                <h2>Email</h2>
-                <div class="contact">thorley.eric@gmail.com</div>
-                <h2>Message</h2>
-                <div id="message"></div>
-                <!-- currently non funtioning button as a div-->
-                <div id="submit">Submit</div>
-            </div>
-        </section>
     </body>
     <footer>Copyright &copy;</footer>
 </html>
