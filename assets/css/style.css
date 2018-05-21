@@ -170,3 +170,8 @@ a {
     color: inherit;
     text-decoration: inherit;
 }
+
+a:hover {
+    background-color: #4aaaa5;
+    color: #dddddd;
+}
