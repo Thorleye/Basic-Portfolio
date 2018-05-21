@@ -33,8 +33,7 @@ nav {
 div#name {
     background-color: #4aaaa5;
     color: #ffffff;
-    position: absolute;  
-    overflow: auto;  
+    position: absolute;    
     font-size: 22px;
     font-weight: bolder;
     top: -16px;
@@ -47,16 +46,29 @@ nav ul {
     list-style-type: none;
     display: block;
     text-align: center;
-    overflow: auto;
     
 }
 
 nav li {
     float: right;
-    font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px; 
+    font-size: 14px; 
 
+}
+
+li#dash {
+    border-left: 1pt solid #dddddd;
+    border-right: 1pt solid #dddddd;
+    border-width: thin;
+    
+}
+
+li a {
+    padding: 16px;
+    padding-top: 20px;
+}
+
+li a:hover {
+    color:#ffffff;
 }
 
 .wrapper {
@@ -173,5 +185,4 @@ a {
 
 a:hover {
     background-color: #4aaaa5;
-    color: #dddddd;
 }
